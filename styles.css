@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  font-size: 3rem;
+  overflow: hidden;
+}
+
+.line-one {
+  gap: 1rem;
+  margin-top: 100vh;
+}
+
+.line-two {
+  font-size: 4rem;
+}
+
+.line-three {
+  gap: 1rem;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position-x: 100%; 
+}
+
+.sun {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.moon {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
